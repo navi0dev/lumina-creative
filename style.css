@@ -40,18 +40,21 @@ main {
 }
 
 /* Footer */
+
+
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
-    position: absolute;
+    position: fixed;
     width: 100%;
     bottom: 0;
 }
 
 /* Form Styles */
 form {
+    margin-bottom: 50px; /* Adds spacing between form and footer */
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
